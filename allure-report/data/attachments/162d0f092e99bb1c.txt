@@ -1,0 +1,9 @@
+Message: Move target (966, 1470) is out of bounds of viewport dimensions (1280, 633)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:479:5
+assertTargetInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:3097:11
+#assertInViewPortFromContent@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:90:17
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1588:11
+
