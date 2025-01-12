@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 order_page_header = (
-By.XPATH, '//div[contains(text(), "Для кого самокат")]')  # Хедер страницы оформления заказа "Для кого самокат"
+    By.XPATH, '//div[contains(text(), "Для кого самокат")]')  # Хедер страницы оформления заказа "Для кого самокат"
 name_field = (By.XPATH, '//input[@placeholder="* Имя"]')  # Поле "Имя"
 last_name_field = (By.XPATH, '//input[@placeholder="* Фамилия"]')  # Поле "Фамилия"
 address_field = (By.XPATH, '//input[@placeholder="* Адрес: куда привезти заказ"]')  # Поле "Адрес"
@@ -12,7 +12,7 @@ list_metro_station = (By.XPATH,
 continue_button = (By.XPATH, '//button[contains(text(), "Далее")]')  # Кнопка "Далее"
 about_rent_text = (By.XPATH, '//div[contains(text(), "Про аренду")]')  # Хедер страницы оформления заказа "Про аренду"
 when_deliver_scooter_field = (
-By.XPATH, '//input[@placeholder="* Когда привезти самокат"]')  # Поле "Когда привезти самокат"
+    By.XPATH, '//input[@placeholder="* Когда привезти самокат"]')  # Поле "Когда привезти самокат"
 rent_time_field = (By.XPATH, '//span[@class="Dropdown-arrow"]')  # Поле "Срок аренды"
 list_rent_time = (By.XPATH, '//div[@class="Dropdown-menu"]')  # Выпадающий список со сроком аренды
 scooter_color_field = (By.XPATH, '//div[contains(@class, "Order_Title")]')  # Поле с цетами самоката
@@ -23,4 +23,4 @@ order_button = (By.XPATH,
                 '//div[contains(@class, "Order_Buttons")]//button[contains(text(), "Заказать")]')  # Кнопка "Заказать" для дальнейшего оформления заказа
 confirm_order_button = (By.XPATH, '//button[contains(text(), "Да")]')  # Кнопка подтверждения заказа
 success_order_text = (
-By.XPATH, '//div[contains(text(), "Заказ оформлен")]')  # Всплывающее окно успешного оформления заказа
+    By.XPATH, '//div[contains(text(), "Заказ оформлен")]')  # Всплывающее окно успешного оформления заказа
